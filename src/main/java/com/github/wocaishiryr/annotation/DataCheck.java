@@ -1,5 +1,7 @@
 package com.github.wocaishiryr.annotation;
 
+import com.github.wocaishiryr.model.DataTypeEnum;
+
 import java.lang.annotation.*;
 
 @Documented
@@ -16,7 +18,7 @@ public @interface DataCheck {
     int maxLength() default 100;
 
     /** 类型 */
-    String type();
+    DataTypeEnum type() default DataTypeEnum.NOTHING;
 
 
 }
