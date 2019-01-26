@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.wocaishiryr</groupId>
+    <artifactId>datacheck</artifactId>
+    <version>0.1-SNAPSHOT</version>
+
+    <name>datacheck</name>
+    <description>a project about data check</description>
+    <url>https://github.com/wocaishiryr</url>
+    <licenses>
+        <license>
+            <name>The ApacheSoftware License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <tag>master</tag>
+        <url>https://github.com/wocaishiryr/datacheck.git</url>
+        <connection>scm:git:https://github.com/wocaishiryr/datacheck.git</connection>
+        <developerConnection>scm:git:https://github.com/wocaishiryr/datacheck.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <name>renyr</name>
+            <email>wocaishiryr@163.com</email>
+        </developer>
+    </developers>
+
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
+
+</project>
